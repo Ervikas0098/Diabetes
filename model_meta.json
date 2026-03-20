@@ -1,0 +1,164 @@
+{
+  "best_model_name": "Random Forest",
+  "feature_columns": [
+    "Age",
+    "Gender",
+    "Polyuria",
+    "Polydipsia",
+    "sudden weight loss",
+    "weakness",
+    "Polyphagia",
+    "Genital thrush",
+    "visual blurring",
+    "Itching",
+    "Irritability",
+    "delayed healing",
+    "partial paresis",
+    "muscle stiffness",
+    "Alopecia",
+    "Obesity"
+  ],
+  "best_needs_scaling": false,
+  "results": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 80.39,
+      "precision": 93.1,
+      "recall": 77.14,
+      "f1": 84.38,
+      "auc": 0.9196
+    },
+    {
+      "model": "Decision Tree",
+      "accuracy": 76.47,
+      "precision": 100.0,
+      "recall": 65.71,
+      "f1": 79.31,
+      "auc": 0.883
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 96.08,
+      "precision": 100.0,
+      "recall": 94.29,
+      "f1": 97.06,
+      "auc": 0.9679
+    },
+    {
+      "model": "Gradient Boosting",
+      "accuracy": 90.2,
+      "precision": 100.0,
+      "recall": 85.71,
+      "f1": 92.31,
+      "auc": 0.9482
+    },
+    {
+      "model": "KNN",
+      "accuracy": 82.35,
+      "precision": 100.0,
+      "recall": 74.29,
+      "f1": 85.25,
+      "auc": 0.9116
+    },
+    {
+      "model": "SVM",
+      "accuracy": 88.24,
+      "precision": 100.0,
+      "recall": 82.86,
+      "f1": 90.62,
+      "auc": 0.9679
+    },
+    {
+      "model": "Neural Network (MLP)",
+      "accuracy": 82.35,
+      "precision": 93.33,
+      "recall": 80.0,
+      "f1": 86.15,
+      "auc": 0.9393
+    },
+    {
+      "model": "Stacking Ensemble",
+      "accuracy": 88.24,
+      "precision": 96.77,
+      "recall": 85.71,
+      "f1": 90.91,
+      "auc": 0.9589
+    }
+  ],
+  "feature_importance": [
+    [
+      "Polyuria",
+      0.2198
+    ],
+    [
+      "Polydipsia",
+      0.183417
+    ],
+    [
+      "Age",
+      0.106626
+    ],
+    [
+      "sudden weight loss",
+      0.066313
+    ],
+    [
+      "Gender",
+      0.064964
+    ],
+    [
+      "Polyphagia",
+      0.043949
+    ],
+    [
+      "Irritability",
+      0.043897
+    ],
+    [
+      "partial paresis",
+      0.040682
+    ],
+    [
+      "visual blurring",
+      0.036758
+    ],
+    [
+      "Alopecia",
+      0.031795
+    ],
+    [
+      "Itching",
+      0.030149
+    ],
+    [
+      "delayed healing",
+      0.029854
+    ],
+    [
+      "muscle stiffness",
+      0.028937
+    ],
+    [
+      "Genital thrush",
+      0.028778
+    ],
+    [
+      "Obesity",
+      0.026656
+    ],
+    [
+      "weakness",
+      0.017424
+    ]
+  ],
+  "confusion_matrix": [
+    [
+      15,
+      1
+    ],
+    [
+      5,
+      30
+    ]
+  ]
+}
